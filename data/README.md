@@ -1,0 +1,1 @@
+This folder is intentionally empty. Place external datasets here if used. Synthetic data is generated on the fly by `bayesdx.data.SyntheticDermDataset`.

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayesdx"
+version = "0.1.0"
+description = "Bayesian Deep Learning for Uncertainty in Medical Diagnosis"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "torch",
+    "torchvision",
+    "tqdm",
+    "hydra-core",
+    "omegaconf",
+    "einops",
+    "rich",
+    "seaborn",  # optional
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+ignore_missing_imports = true

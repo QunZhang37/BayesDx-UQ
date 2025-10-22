@@ -1,0 +1,2 @@
+name: mc_dropout
+dropout_p: 0.5

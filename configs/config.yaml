@@ -1,0 +1,12 @@
+defaults:
+  - data: synthetic
+  - model: mc_dropout
+  - train: default
+  - eval: default
+  - viz: default
+  - _self_
+
+exp:
+  name: debug
+
+seed: 42

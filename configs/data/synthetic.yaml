@@ -1,0 +1,4 @@
+target: bayesdx.data.loader
+params:
+  batch_size: 64
+  split: train

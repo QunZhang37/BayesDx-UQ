@@ -1,0 +1,21 @@
+name: bayesdx
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - cudatoolkit
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pip:
+      - hydra-core
+      - omegaconf
+      - einops
+      - rich
+      - seaborn

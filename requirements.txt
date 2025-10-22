@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+torch
+torchvision
+tqdm
+hydra-core
+omegaconf
+einops
+rich
+seaborn
